@@ -72,12 +72,13 @@ Uses the .env to switch between localhost and Render API based on environment.
 Backend: Deployed to Render.com
 Automatically connects to a remote MySQL server using secure .env credentials.
 
-🙌 Credits
+## 🙌 Credits
 - **Shivam Chaudhary** — for guiding me through setting up the deployment environment.
 
 - **Dhaval Patel** (Codebasics) — for the amazing Python for Data Professionals playlist that helped shape the backend structure and workflow of this project.
 
-👨‍💻 Author
+## 👨‍💻 Author
+
 Built with ❤️ by **Shantanu Bhute**
 Feel free to fork, improve, and contribute!
 
