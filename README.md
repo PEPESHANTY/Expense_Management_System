@@ -47,32 +47,7 @@ A modern and interactive full-stack Expense Management System built using **Stre
 
 ## 📁 Project Structure
 
-PROJECT_2/
-│
-├── backend/                      # 💡 FastAPI backend service
-│   ├── db_helper.py              # Manages database connections (DEV/PROD)
-│   ├── logging_setup.py          # Custom logging configuration for backend
-│   ├── server.py                 # Main FastAPI app with API endpoints
-│   ├── test_api.py               # Manual endpoint testing (optional)
-│   ├── .env                      # Contains environment-based DB config variables
-│
-├── frontend/                     # 🎨 Streamlit frontend app
-│   ├── app.py                    # Main app entry point + layout setup
-│   ├── analytics_ui.py           # UI to visualize category-wise spending
-│   ├── analytics_by_month.py     # UI for month-wise charts and analytics
-│   ├── add_update_ui.py          # UI to add or update expenses
-│   ├── .env                      # Contains ENV setting and PROD API URL
-│
-├── tests/                        # 🧪 Test suite
-│   └── backend/
-│       ├── test_db_helper.py     # Unit tests for DB helper functions
-│       ├── conftest.py           # Test fixtures setup (e.g., mock connections)
-│
-├── requirements.txt              # Shared dependencies for backend/frontend
-├── run_app.bat                   # Shortcut to run backend & frontend locally (Windows)
-├── README.md                     # Project overview, setup guide, and deployment notes
-
-
+PROJECT_2/ ├── backend/ # 💡 FastAPI backend service │ ├── db_helper.py # Manages database connections (DEV/PROD) │ ├── logging_setup.py # Custom logging configuration for backend │ ├── server.py # Main FastAPI app with API endpoints │ ├── test_api.py # Manual endpoint testing (optional) │ └── .env # Contains environment-based DB config variables │ ├── frontend/ # 🌐 Streamlit frontend app │ ├── app.py # Main app entry point + layout setup │ ├── analytics_ui.py # UI to visualize category-wise spending │ ├── analytics_by_month.py # UI for month-wise charts and analytics │ ├── add_update_ui.py # UI to add or update expenses │ └── .env # Contains ENV setting and PROD API URL │ ├── tests/ # 🧪 Test suite │ └── backend/ │ ├── test_db_helper.py # Unit tests for DB helper functions │ └── conftest.py # Test fixtures setup (e.g., mock connections) │ ├── requirements.txt # Shared dependencies for backend/frontend ├── run_app.bat # Shortcut to run backend & frontend locally (Windows) └── README.md # Project overview, setup guide, and deployment notes
 
 ## 🧪 Running Locally
 
