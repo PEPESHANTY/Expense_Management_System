@@ -7,9 +7,6 @@ This app allows users to:
 - View analytics by category
 - Visualize trends month-wise using bar and pie charts
 
----
-
-# 💸 Expense Management System
 
 A modern and interactive full-stack Expense Management System built using **Streamlit** for the frontend, **FastAPI** for the backend, and **MySQL** as the database. This app enables users to log daily expenses, track spending patterns, and visualize analytics — all in a beautiful and user-friendly interface.
 
